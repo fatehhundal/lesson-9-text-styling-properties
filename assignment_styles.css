@@ -1,0 +1,56 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: overline underline;
+    text-decoration-thickness: 2.5px;
+    text-align: center;
+}
+
+h3 {
+    box-shadow: 6px 6px 9px;
+    text-align: center;
+}
+
+.direction_shadow {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+#left_shadow {
+    text-shadow: -1px 2px orangered;
+}
+
+#right_shadow {
+    text-shadow: 1px 2px blue;
+    text-align: right;
+}
+
+#indent {
+    text-indent: 32%;
+}
+
+.font {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: lowercase;
+}
+
+div {
+    width: 350px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+            
+#myDiv {
+    transform: rotateX(-180deg) rotateY(180deg);
+}
+
+#skew {
+    color: lightskyblue;
+    transform: rotate(10deg)
+}
